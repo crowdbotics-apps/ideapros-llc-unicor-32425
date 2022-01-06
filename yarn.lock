@@ -972,12 +972,15 @@
   dependencies:
     react-native-render-html "^5.1.0"
 
+"@modules/push-notifications@file:./modules/push-notifications/":
+  version "1.0.0"
+
 "@modules/terms-and-conditions@file:./modules/terms-and-conditions":
   version "1.0.1"
   dependencies:
     react-native-render-html "^5.1.0"
 
-"@modules/user-profile@file:./modules/user-profile/":
+"@modules/user-profile@file:./modules/user-profile":
   version "1.0.0"
   dependencies:
     "@react-navigation/native" "^5.9.2"
@@ -3671,7 +3674,7 @@ interpret@^1.0.0:
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.4.0.tgz#665ab8bc4da27a774a40584e812e3e0fa45b1a1e"
   integrity sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA==
 
-invariant@^2.2.4:
+invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -5917,6 +5920,13 @@ react-native-keyboard-aware-scroll-view@^0.9.3:
   dependencies:
     prop-types "^15.6.2"
     react-native-iphone-x-helper "^1.0.3"
+
+react-native-onesignal@^4.0.3:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/react-native-onesignal/-/react-native-onesignal-4.3.4.tgz#ee19d62f255a8146dff6e3de30c4544cd28f95c4"
+  integrity sha512-FpSUA9JczrIndqEGk86pnHr0XHRGmZLB6EhSK2PeF++tAA2GNTKd7ga59RCb8S2097qHzBBpHYVefmIIbR8dtQ==
+  dependencies:
+    invariant "^2.2.2"
 
 react-native-permissions@3.0.4:
   version "3.0.4"
