@@ -64,6 +64,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [react-native-social-login](modules/social-login)
 - [react-native-login](modules/login)
 - [react-native-onboarding](modules/onboarding)
+- [react-native-splash](modules/splash)
 
 # Getting started: Frontend
 
